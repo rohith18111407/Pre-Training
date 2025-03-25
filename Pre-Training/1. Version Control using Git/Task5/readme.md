@@ -7,15 +7,16 @@ git rebase -i HEAD~3
 After running git rebase -i HEAD~3, Git opens an editor
 
 Actions You Can Perform
-pick → Keep the commit as is.
 
-reword → Change the commit message.
+- pick → Keep the commit as is.
 
-squash (s) → Merge the commit with the previous commit.
+- reword → Change the commit message.
 
-edit → Modify the commit contents.
+- squash (s) → Merge the commit with the previous commit.
 
-drop (d) → Delete the commit.
+- edit → Modify the commit contents.
+
+- drop (d) → Delete the commit.
 
 After saving, Git asks you to modify the commit message
 
