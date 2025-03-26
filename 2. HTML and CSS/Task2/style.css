@@ -1,0 +1,54 @@
+/* General Page Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+/* Card Styling */
+.card {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px black;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Card Title */
+.card h2 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: red;
+}
+
+.card .sub {
+    margin: 15px 0;
+    font-size: 16px;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+
+/* Card Description */
+.card p {
+    font-size: 12px;
+    color: black;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+}
