@@ -1,0 +1,58 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2F3C7E;
+}
+
+/* Heading */
+header{
+    background: #2F3C7E;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+h2{
+    color: goldenrod;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Spacing between items */
+    max-width: 85%;
+    margin: auto;
+}
+
+/* Grid Item Styling */
+.grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F3C7E;
+}
+
+table, th, td {
+    border: 1px solid;
+    font-size: 14px;
+  }
+
+  table th{
+    color: goldenrod;
+  }
+
+/* Responsive Design: Mobile View (Stacked Items) */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column */
+    }
+}

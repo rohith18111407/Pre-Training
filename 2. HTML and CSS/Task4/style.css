@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    color: #002C54;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #002C54;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Main Menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    transition: background 0.3s;
+}
+
+/* Hover Effect for Main Menu */
+.menu li a:hover {
+    background-color: lightslategray;
+    color:#002C54;
+    border-radius: 10px;
+}
+
+/* Submenu (Dropdown) */
+.submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; /*ensures submenu appears below the parent item.*/ 
+    background-color: #002C54;
+    display: none; /* Initially hidden */
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Show Submenu on Hover */
+.dropdown:hover .submenu {
+    display: block;
+}
+
+/* Submenu Item */
+.submenu li a {
+    padding: 12px 15px;
+    display: block;
+    color: white;
+    transition: background 0.3s;
+}
+
+/* Hover Effect for Submenu */
+.submenu li a:hover {
+    background-color: lightslategray;
+}
+
+/* Responsive Design: Stack Menu Items on Small Screens */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        text-align: center;
+    }
+
+    .submenu {
+        position: static; /* Make dropdowns inline */
+        display: none;
+    }
+
+    .dropdown:hover .submenu {
+        display: block;
+    }
+}
+
+/* Heading */
+header{
+    color: #002C54;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+
+/* Main Content */
+main {
+    padding:0  40px ;
+}
+
+section {
+    background: #FDF6F6;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: goldenrod;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+table th{
+    background-color: #002C54;
+    color: #FDF6F6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Spacing between items */
+    max-width: 85%;
+    margin: auto;
+}
+
+/* Grid Item Styling */
+.grid-item {
+    background: goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 red;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2F3C7E;
+}
+
+
+/* Footer */
+footer {
+    background: #002C54;
+    color: #FDF6F6;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
