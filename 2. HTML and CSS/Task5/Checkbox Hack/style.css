@@ -1,0 +1,81 @@
+/* Hide the checkbox */
+.hidden-checkbox {
+    display: none;
+}
+
+/* Style for Open Button */
+.open-btn {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 45%;
+    padding: 10px 12px;
+    font-size: 18px;
+    color: white;
+    background: #007bff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.open-btn:hover {
+    background: purple;
+}
+
+/* Modal Container */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+/* Show modal when checkbox is checked */
+
+/* The :checked pseudo-class only applies to checkboxes or radio buttons when they are selected. */
+
+/* The ~ general sibling combinator selects the .modal only if it appears after #modal-toggle in the HTML structure. This ensures that when the checkbox is checked, the modal appears. */
+
+#modal-toggle:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal Content Box */
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    width: 60%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: purple;
+}

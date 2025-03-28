@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slideshow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2 class="head">Automatic Slideshow</h2>
+
+    <div class="content-section" style="max-width: 500px">
+      <img
+        class="mySlides"
+        src="https://magazine.derivaz-ives.com/content/images/2024/04/Quite-a-desirable-trio-by-PAL.jpg"
+        style="width: 100%"
+      />
+      <img
+        class="mySlides"
+        src="https://www.motorbeam.com/wp-content/uploads/Maruti_Suzuki_Ertiga_Test_Drive_Review-1200x763.jpg"
+        style="width: 100%"
+      />
+      <img
+        class="mySlides"
+        src="https://cdni.autocarindia.com/ExtraImages/20220526010108_SCORPIO_RED_FINAL.jpg"
+        style="width: 100%"
+      />
+      <img
+        class="mySlides"
+        src="https://www.motorbeam.com/wp-content/uploads/Ford-Ikon-Road-Test-1024x576.jpg"
+        style="width: 100%"
+      />
+    </div>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>

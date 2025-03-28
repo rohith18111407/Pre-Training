@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pure CSS Modal Popup (Checkbox Hack)</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Hidden Checkbox for Modal Control -->
+    <input type="checkbox" id="modal-toggle" class="hidden-checkbox" />
+
+    <!-- Button to Open Modal -->
+    <label for="modal-toggle" class="open-btn">Open Modal</label>
+
+    <!-- Modal Container -->
+    <div class="modal">
+      <div class="modal-content">
+        <h2>Modal Title</h2>
+        <p>This is a modal popup created using only HTML and CSS.</p>
+
+        <!-- Button to Close Modal -->
+        <label for="modal-toggle" class="close-btn">×</label>
+      </div>
+    </div>
+  </body>
+</html>

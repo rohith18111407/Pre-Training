@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title */
+.accordion-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Accordion Container */
+.accordion {
+    max-width: 500px;
+    margin: auto; /*Centers the accordion horizontally*/
+}
+
+/* Hide checkboxes */
+.accordion-item input {
+    display: none;
+}
+
+/* Accordion Header (Label) */
+.accordion-header {
+    display: block; /*Makes the label behave like a block element (takes full width).*/
+    background: #3498db;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+    background: #2980b9;
+}
+
+/* Accordion Content (Hidden by Default) */
+.accordion-content {
+    max-height: 0; /*The content is hidden by default.*/
+    overflow: hidden; /*Ensures that hidden content doesn't take space when collapsed.*/
+    background: white;
+    padding: 0 15px; /*Top and bottom padding are 0px and left right padding 15px*/
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+/* Show content when checkbox is checked */
+.accordion-item input:checked ~ .accordion-content {
+    max-height: 900px;
+    padding: 15px;
+}

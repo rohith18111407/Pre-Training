@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Tab Container */
+.tabs-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Tab labels */
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+}
+
+.tab {
+    flex: 1; /*Makes sure each tab takes equal width inside the tab container. Since the tabs are inside a flex container (.tabs), this makes them distribute evenly.*/
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.tab:hover {
+    background: red;
+}
+
+/* Content sections */
+.tab-content {
+    padding: 20px;
+    background: white;
+}
+
+/* Initially hide all content */
+.content {
+    display: none;
+}
+
+/* Show content when corresponding radio button is checked */
+#tab1:checked ~ .tab-content #content1,
+#tab2:checked ~ .tab-content #content2,
+#tab3:checked ~ .tab-content #content3 {
+    display: block;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Smooth transition effect */
+@keyframes fadeIn {
+    /* he content starts invisible (opacity: 0).
+    It is shifted 10px down (translateY(10px)) to create a "slide-up" effect. */
+    from { opacity: 0; transform: translateY(10px); }
+    /* The content becomes fully visible (opacity: 1).
+    It moves back to its original position (translateY(0), meaning no vertical shift). */
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Highlight active tab */
+#tab1:checked ~ .tabs label[for="tab1"],
+#tab2:checked ~ .tabs label[for="tab2"],
+#tab3:checked ~ .tabs label[for="tab3"] {
+    background: red;
+}

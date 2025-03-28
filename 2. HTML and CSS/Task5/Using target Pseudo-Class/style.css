@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Open Modal Button */
+.open-modal {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Modal Overlay (Hidden by Default) */
+.modal {
+    position: fixed; /*Keeps the modal overlay fixed in place, so it doesn’t scroll with the page.*/
+    top: 0; /*Ensures the modal starts from the very top-left of the screen*/
+    left: 0;
+    width: 100%; /*Covers the entire screen like a full-page overlay.*/
+    height: 100%;/*Covers the entire screen like a full-page overlay.*/
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0; /*	Initially hides the modal by making it fully transparent.*/
+    visibility: hidden; /*Ensures the modal is not interactable when hidden.*/
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+/* Show Modal when Targeted */
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal Box */
+.modal-content {
+    background: white;
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute; /*Positions the modal relative to the .modal container.*/
+    top: 50%; /*Moves the modal content to the center of the screen.*/
+    left: 50%;
+    transform: translate(-50%, -50%); /*Precisely centers the modal by shifting it back by half its width & height.*/
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Close Button */
+.close-modal {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
