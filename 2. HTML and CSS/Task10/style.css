@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: lightgrey;
+    color: #002C54;
+}
+
+/* Navigation Bar */
+nav {
+    background: #002C54;
+    padding: 30px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /*Aligns navigation links horizontally centered.
+
+    */
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: red;
+    border-radius: 5px;
+}
+
+/* Page Sections */
+.container {
+    position: relative; /*Allows absolute-positioned child elements (.page) to be positioned inside it.*/
+    width: 80%;
+    height: 80vh;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 20px;
+}
+
+.page {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background: white;
+    display: none;
+    align-items: center; /*Centers content horizontally.*/
+    flex-direction: column; /* Arranges content in a column.*/
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Target the active section */
+.page:target {
+    display: flex;
+    opacity: 1;
+}
+
+/* Default (home) is always visible */
+.page.active {
+    display: flex;
+}
+
+h2{
+    color: red;
+}
+
+h3{
+    color: goldenrod;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /*Stack navigation items vertically.*/
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+
+
