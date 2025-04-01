@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+nav {
+    background: #002C54;
+    padding: 20px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#app {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
