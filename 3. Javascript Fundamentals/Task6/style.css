@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+li.dragging {
+    opacity: 0.5;
+    background-color: darkblue;
+}
