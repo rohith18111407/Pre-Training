@@ -1,0 +1,5 @@
+Hello, this is a sample text file.
+It contains multiple lines.
+Each line has some words.
+C# is great for file handling.
+Let's count the words and lines!

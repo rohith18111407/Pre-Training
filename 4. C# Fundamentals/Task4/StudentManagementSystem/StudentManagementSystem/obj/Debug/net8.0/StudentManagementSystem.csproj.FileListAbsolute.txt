@@ -1,0 +1,14 @@
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.exe
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.deps.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.runtimeconfig.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\bin\Debug\net8.0\StudentManagementSystem.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.AssemblyInfoInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.AssemblyInfo.cs
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\refint\StudentManagementSystem.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\StudentManagementSystem.genruntimeconfig.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task4\StudentManagementSystem\StudentManagementSystem\obj\Debug\net8.0\ref\StudentManagementSystem.dll

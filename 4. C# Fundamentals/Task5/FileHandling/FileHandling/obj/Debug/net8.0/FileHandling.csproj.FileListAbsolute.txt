@@ -1,0 +1,14 @@
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.exe
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.deps.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.runtimeconfig.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\bin\Debug\net8.0\FileHandling.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfoInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.AssemblyInfo.cs
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.csproj.CoreCompileInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\refint\FileHandling.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\FileHandling.genruntimeconfig.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task5\FileHandling\FileHandling\obj\Debug\net8.0\ref\FileHandling.dll
