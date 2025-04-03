@@ -1,0 +1,14 @@
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\bin\Debug\net8.0\FactorialProgram.exe
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\bin\Debug\net8.0\FactorialProgram.deps.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\bin\Debug\net8.0\FactorialProgram.runtimeconfig.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\bin\Debug\net8.0\FactorialProgram.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\bin\Debug\net8.0\FactorialProgram.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.AssemblyInfoInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.AssemblyInfo.cs
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.csproj.CoreCompileInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\refint\FactorialProgram.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\FactorialProgram.genruntimeconfig.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task1\FactorialProgram\FactorialProgram\obj\Debug\net8.0\ref\FactorialProgram.dll
