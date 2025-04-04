@@ -1,0 +1,14 @@
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\bin\Debug\net8.0\Program.exe
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\bin\Debug\net8.0\Program.deps.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\bin\Debug\net8.0\Program.runtimeconfig.json
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\bin\Debug\net8.0\Program.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\bin\Debug\net8.0\Program.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.AssemblyInfoInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.AssemblyInfo.cs
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.csproj.CoreCompileInputs.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\refint\Program.dll
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.pdb
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
+C:\Rohith\Backup\Desktop\Presidio\Pre-Training\4. C# Fundamentals\Task8\Program\Program\obj\Debug\net8.0\ref\Program.dll
